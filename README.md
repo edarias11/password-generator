@@ -1,2 +1,2 @@
 # password-generator
-his script generates a random password, encrypts it using the generate_password_hash
+This script generates a random password, encrypts it using the generate_password_hash function from the werkzeug.security module, and then prints both the original password and its hashed version. The random.sample() function is used to select characters randomly from the specified base characters (lowercase letters, uppercase letters, numbers, and symbols) to create the password.
